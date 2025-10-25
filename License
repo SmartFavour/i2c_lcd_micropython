@@ -1,0 +1,19 @@
+
+---
+
+## 🚀 **RELEASE.md**
+
+This file tracks your version history and release notes.
+
+```markdown
+# Release Notes
+
+## v1.0.0 — Initial Release (2025-10-25)
+- Added `I2cLcd` class for 16x2 and 20x4 displays
+- Implemented `clear()`, `write()`, and `goto()` functions
+- Tested on ESP32 with 0x27 I²C LCD
+
+## v1.1.0 — Future Ideas
+- Add `backlight(on/off)` control
+- Add `create_char()` for custom icons
+- Add auto-detect for LCD size
